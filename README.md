@@ -1,7 +1,4 @@
 # teamworkA2
-# Prohlížeč obrázků v Tkinteru
-
-Tento jednoduchý Pythonový projekt umožňuje načítat a zobrazovat obrázky z určené složky pomocí grafického rozhraní vytvořeného s knihovnou **Tkinter**.
 
 ## Funkce
 - Automatické načtení všech obrázků ze zvolené složky
