@@ -1,2 +1,2 @@
-# teamworkA2
-Moje část kódu naprogramovává umělou inteligenci na 
+# Popsání části kódu, který mám u sebe ve své větvi
+Část kódu ze hry, která se nachází u mne v mé větvi(setup_ui(self):) dělá to, že vytváří grafické rozhraní uživatele, ta druhá čast (frame = tk.Frame(self.root, bg="green") dělá to, že vytváří jednoduché kontejnerové okno a nastavuje barvu pozadí rámce na zelenou a ta třetí část (frame.pack(padx=20, pady=20)) nastavuje výšku a šířku vnější výplně.    
