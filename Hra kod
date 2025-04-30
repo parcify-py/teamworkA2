@@ -1,1 +1,9 @@
-
+def nacti_obrazky():
+    seznam = []
+    for soubor in os.listdir(SLOZKA_OBRAZKU):
+        if soubor.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
+            cesta = os.path.join(SLOZKA_OBRAZKU, soubor)
+            obrazek = Image.open(cesta).resize(VELIKOST_OBRAZKU)
+            foto = ImageTk.PhotoImage(obrazek)
+            seznam.append(foto)
+    return seznam
