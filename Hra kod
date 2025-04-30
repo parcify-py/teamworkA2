@@ -1,4 +1,3 @@
 # def vytvor_gui(self):
         self.ramecek = tk.Frame(self.root, bg="green")
         self.ramecek.pack(padx=20, pady=20)
-
